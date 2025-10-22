@@ -1,16 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { CarritoProvider } from "./context/CarritoContext";
+import { Carrito } from "./components/carrito";
 import App from "./App";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <CarritoProvider>
+      <Carrito>
         <App />
-      </CarritoProvider>
+      </Carrito>
     </BrowserRouter>
   </StrictMode>
 );
