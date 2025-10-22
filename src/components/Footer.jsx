@@ -17,7 +17,7 @@ const Footer = () => {
       </ul>
       {/* Seccion de Copyright */}
       <p className={styles.copyright}>
-        © {anioActual} One Piece. Todos los derechos reservados.
+        © {anioActual} Nicote93. Todos los derechos reservados.
       </p>
     </footer>
   );

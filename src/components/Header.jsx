@@ -4,12 +4,12 @@ import UserIcon from '../assets/UserIcon';
 import BagIcon from '../assets/BagIcon';
 import { Link } from 'react-router-dom';
 
-const Header = ({contadorEnCarrito = 5}) => {
+const Header = ({contadorEnCarrito = 1}) => {
   return (
     <header className={styles.header}>
       {/* Seccion Izquierda: Logo */}
       <div className={styles.logo}>
-        ONEPIECE
+        Nicote93
       </div>
       {/* Seccion Central: Componente NavBar */}
       <div className={styles.navbarContainer}>

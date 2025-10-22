@@ -16,6 +16,8 @@
 .navbarContainer {
   flex-basis: 60%; 
   text-align: center;
+  background-color: #1a1a1a; /* Cambia por el color que quieras */
+  color: white;              /* Texto blanco */
 }
 
 .iconsContainer {
