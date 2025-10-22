@@ -7,7 +7,6 @@ import Populares from "./pages/populares";
 import ProductoDetalle from "./pages/ProductoDetalle";
 import Footer from "./components/Footer";
 import Tecnologia from "./pages/importados";
-import Login from "./pages/Login";
 
 function App() {
   // 🛒 Estado del carrito
@@ -43,7 +42,6 @@ function App() {
           path="/tecnologia"
           element={<Tecnologia agregarAlCarrito={agregarAlCarrito} />}
         />
-        <Route path="/login" element={<Login />} />
         <Route path="/productos/:id" element={<ProductoDetalle />} />
         <Route
           path="/carrito"
